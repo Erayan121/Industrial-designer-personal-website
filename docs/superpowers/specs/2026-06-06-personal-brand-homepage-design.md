@@ -157,15 +157,33 @@ An alternative is Vite + React if the site later needs heavier page-level intera
 
 ## Content Preparation Workflow
 
-Before implementation, gather:
+Confirmed source assets:
 
-1. One black-background horizontal hero photo.
-2. Three to six representative work entries.
-3. One to three images per work.
-4. Chinese and English personal intro text.
-5. Confirmed contact links.
+1. Hero photo: `D:/我的资源/资料/个人信息/微信图片_20260322194400_674_20.jpg`
+2. Komorebi cover: `D:/我的资源/作品集/项目一 Komorebi/最终优化渲染/Komorebi展示图.png`
+3. Tendio cover: `D:/我的资源/作品集/Tendio/渲染图/53245.jpg`
+4. Vkiku cover: `D:/我的资源/作品集/Vkiku/vkiku最终优化渲染/展示图.png`
+5. Kidspark cover: `D:/我的资源/作品集/项目二 Kispark/Kidspark主图.png`
+6. Senhorae cover: `D:/我的资源/作品集/SENHORAE/优化后渲染图/e59a51c1-98b4-49b0-a026-f3986e7ed95c.jpg`
+7. Janet Motor cover: `D:/我的资源/作品集/项目四 Janet Motor/优化后渲染图/779401-Janet Motor-1.png`
 
-If the exact works are not ready, implementation can start with a structured data model and temporary clearly labeled local placeholders, but final launch should use real work images.
+Initial works list:
+
+1. Komorebi
+2. Tendio
+3. Vkiku
+4. Kidspark
+5. Senhorae
+6. Janet Motor
+
+Before final launch, gather:
+
+1. Missing metadata for each work: year, category, materials/tools, keywords, and short bilingual description.
+2. Additional images for any work that should later expand into a project detail page.
+3. Chinese and English personal intro text.
+4. Confirmed contact links.
+
+Implementation can start with the confirmed cover images and work names. The site should make missing metadata easy to add later without restructuring the works section.
 
 ## Implementation Phases
 
@@ -181,8 +199,7 @@ If the exact works are not ready, implementation can start with a structured dat
 
 The design direction is confirmed, but implementation will still need real assets and content:
 
-- Hero photo file.
-- Work images and metadata.
+- Work metadata beyond the confirmed names and cover images.
 - Contact links.
 - Preferred default language, if a toggle is used.
 
